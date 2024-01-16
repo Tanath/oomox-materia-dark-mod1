@@ -6,7 +6,7 @@
   text-shadow: none;
   icon-shadow: none;
   transition-duration: 100ms;
-  font-size: 10.5pt;
+  font-size: 12pt;
   font-weight: 500;
   min-height: 32px;
   padding: 0 16px;
@@ -235,9 +235,9 @@
 }
 
 stage {
-  font-size: 10.5pt;
+  font-size: 12pt;
   font-weight: 400;
-  font-family: "M+ 1c", Roboto, Cantarell, Sans-Serif;
+  font-family: "Atkinson Hyperlegible Regular", "Ubuntu Regular", "Fira Code", "Monospace Regular", sans-serif;
   color: #eeeeee;
 }
 
@@ -288,7 +288,7 @@ StScrollView StScrollBar {
 }
 
 #Tooltip {
-  font-size: 9pt;
+  font-size: 11pt;
   font-weight: 400;
   padding: 6px 8px;
   color: #e0e0e0;
@@ -363,7 +363,7 @@ StScrollView StScrollBar {
 }
 
 .popup-subtitle-menu-item {
-  font-size: 10.5pt;
+  font-size: 11pt;
   font-weight: 500;
 }
 
@@ -372,7 +372,7 @@ StScrollView StScrollBar {
 }
 
 .popup-alternating-menu-item:alternate {
-  font-size: 10.5pt;
+  font-size: 11pt;
   font-weight: 500;
 }
 
@@ -396,6 +396,8 @@ StScrollView StScrollBar {
 
 #panel {
   color: rgba(224, 224, 224, 0.7);
+  font-family: "Atkinson Hyperlegible Regular", "Ubuntu Regular", "Fira Code", "Monospace Regular", sans-serif;
+  font-weight: bold;
   background-color: rgba(0, 0, 0, 0.6);
   height: 2.5em;
   width: 3.2em;
@@ -671,7 +673,7 @@ StScrollView StScrollBar {
 }
 
 .panel-status-button {
-  font-size: 10.5pt;
+  font-size: 11pt;
   font-weight: 500;
   -natural-hpadding: 4px;
   -minimum-hpadding: 4px;
@@ -701,7 +703,7 @@ StScrollView StScrollBar {
 }
 
 .window-caption {
-  font-size: 9pt;
+  font-size: 11pt;
   font-weight: 400;
   background-color: rgba(0, 0, 0, 0.01);
   color: rgba(224, 224, 224, 0.7);
@@ -820,7 +822,7 @@ StScrollView StScrollBar {
 }
 
 .calendar-month-label {
-  font-size: 10.5pt;
+  font-size: 11pt;
   font-weight: 500;
   height: 16px;
   margin: 2px;
@@ -851,7 +853,7 @@ StScrollView StScrollBar {
 }
 
 .calendar-day-base {
-  font-size: 9pt;
+  font-size: 11pt;
   font-weight: 400;
   text-align: center;
   width: 28px;
@@ -872,7 +874,7 @@ StScrollView StScrollBar {
 }
 
 .calendar-week-number {
-  font-size: 9pt;
+  font-size: 11pt;
   font-weight: 400;
   width: 21px;
   height: 28px;
@@ -885,7 +887,7 @@ StScrollView StScrollBar {
 }
 
 .calendar-day-heading {
-  font-size: 9pt;
+  font-size: 11pt;
   font-weight: 400;
   width: 28px;
   height: 21px;
@@ -1186,7 +1188,7 @@ StScrollView StScrollBar {
 }
 
 .keyboard-key {
-  font-size: 10.5pt;
+  font-size: 11pt;
   font-weight: 500;
 }
 
@@ -1288,12 +1290,12 @@ StScrollView StScrollBar {
 }
 
 .menu-selected-app-title {
-  font-size: 9pt;
+  font-size: 11pt;
   font-weight: 400;
 }
 
 .menu-selected-app-description {
-  font-size: 9pt;
+  font-size: 11pt;
   font-weight: 400;
   max-width: 150px;
 }
@@ -1317,7 +1319,7 @@ StScrollView StScrollBar {
 }
 
 .window-list-box {
-  font-size: 9pt;
+  font-size: 11pt;
   font-weight: 400;
   spacing: 4px;
   padding: 0 3px;
@@ -1379,7 +1381,7 @@ StScrollView StScrollBar {
 }
 
 .grouped-window-list-number-label {
-  font-size: 9pt;
+  font-size: 11pt;
   font-weight: 400;
   z-index: 99;
 }
@@ -1628,7 +1630,7 @@ StScrollView StScrollBar {
 }
 
 .applet-label {
-  font-size: 10.5pt;
+  font-size: 11pt;
   font-weight: 500;
   color: rgba(224, 224, 224, 0.7);
 }
@@ -1641,7 +1643,7 @@ StScrollView StScrollBar {
 }
 
 .desklet {
-  font-size: 9pt;
+  font-size: 11pt;
   font-weight: 400;
   color: #e0e0e0;
   border: none;
@@ -1652,7 +1654,7 @@ StScrollView StScrollBar {
 }
 
 .desklet-with-borders {
-  font-size: 9pt;
+  font-size: 11pt;
   font-weight: 400;
   background-color: #424242;
   border-radius: 3px;
@@ -1663,7 +1665,7 @@ StScrollView StScrollBar {
 }
 
 .desklet-with-borders-and-header {
-  font-size: 9pt;
+  font-size: 11pt;
   font-weight: 400;
   background-color: #424242;
   border-radius-bottomleft: 2px;
@@ -1722,7 +1724,7 @@ StScrollView StScrollBar {
 }
 
 .about-uuid {
-  font-size: 9pt;
+  font-size: 11pt;
   font-weight: 400;
 }
 
@@ -1749,7 +1751,7 @@ StScrollView StScrollBar {
 }
 
 .expo-workspaces-name-entry {
-  font-size: 11.25pt;
+  font-size: 12pt;
   font-weight: 400;
   background-color: rgba(255, 255, 255, 0.04);
   color: #fff;
@@ -1888,7 +1890,7 @@ StScrollView StScrollBar {
 }
 
 .user-label {
-  font-size: 10.5pt;
+  font-size: 11pt;
   font-weight: 500;
   color: #eeeeee;
 }
